@@ -1,0 +1,23 @@
+{
+  "name": "code_js",
+  "version": "1.0.0",
+  "description": "Practise coding problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rishabh2324/code_js.git"
+  },
+  "author": "Rishabh Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rishabh2324/code_js/issues"
+  },
+  "homepage": "https://github.com/Rishabh2324/code_js#readme",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
