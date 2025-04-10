@@ -5,12 +5,13 @@ function getMinMax(arr) {
   let end = 0;
 
   while (end < arr.length) {
-    if (arr[end] < min) {
+    if (min < arr[end]) {
       min = arr[end];
+      end++;
     } else {
       start = end;
+      max = arr[start];
     }
-    end++;
   }
   return [arr[end], arr[start]];
 }

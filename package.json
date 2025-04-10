@@ -4,7 +4,7 @@
   "description": "Practise coding problems",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",    
     "start": "nodemon index.js"
   },
   "repository": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Rishabh2324/code_js#readme",
   "dependencies": {
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
